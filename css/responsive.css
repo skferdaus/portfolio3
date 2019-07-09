@@ -1,0 +1,103 @@
+/*
+    Theme Responsive Design
+    */
+@media only screen and (min-width: 1169px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .law-skill {
+    padding-left: 0px;
+    margin-bottom: 30px;
+    }
+}
+
+
+
+/* ---- Start of min-width 320px and max-width 768px CSS ---- */
+@media all and (min-width: 320px) and (max-width: 768px) {
+	.container {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .contact-form input[type="text"], input[type="tel"], input[type="email"], input[type="subject"] {
+    width: 100% !important;
+
+    }
+}
+/* ---- End of min-width 320px and max-width 768px CSS ---- */
+
+
+
+/* ---- Start of max-width 480px CSS ---- */
+@media all and (min-width: 320px) and (max-width: 736px) {
+    .col-xs-6{
+      float: none;
+      width: 100%;
+    }
+    .section-title h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    }
+    .page-inner {
+    padding: 2em 1em !important;
+
+    }
+    .page-right {
+        left: 0;
+        padding-left: 10% !important;
+    }
+    .social-links{
+      width: auto;
+      margin: auto;
+      display: none;
+
+  }
+
+  .law-skill {
+    padding-left: 0px;
+    margin-bottom: 30px;
+    }
+  .contact-form input[type="text"], input[type="tel"], input[type="email"], input[type="subject"] {
+    width: 100% !important;
+
+    }
+}
+/* ---- End of max-width 480px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .page-inner {
+    padding: 2em 0 !important;
+    }
+	.profile-list {
+    margin: 0px 0 0px 0;
+    padding: 0;
+    list-style: none;
+    }
+    .profile-list .cont {
+    display: block;
+    margin-left: 83px;
+    font-size: 14px;
+    }
+    .profile-list .title{
+        font-size: 14px;
+    }
+    a.dwn-cv-btn{
+        float: left;
+        margin-top: 30px;
+    }
+
+}
+/* ---- End of max-width 380px CSS ---- */
